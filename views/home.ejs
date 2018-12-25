@@ -1,0 +1,30 @@
+<html>
+<head>
+    <title>Join Us</title>
+    <link rel="stylesheet" type="text/css" href="/index.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Waiting list join page">
+    <meta charset="utf-8">
+    <meta name="author" content="Mohit Juneja">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+
+</head>
+<body>
+
+<h1>JOIN US</h1>
+
+<p class ='lead'>
+    Enter your email to join
+    <b>
+        <%=count%>
+    </b>
+    others on our waitlist. We are 100% not cult.
+</p>
+
+<form method="POST" action="/register">
+    <input type="email" class="form" name="email" placeholder="Enter Your Email">
+    <button type="submit">Join Now</button>
+
+
+</body>
+</html>
